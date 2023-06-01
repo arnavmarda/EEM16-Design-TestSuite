@@ -1,7 +1,7 @@
 # EEM16-Design-TestSuite
 *Test Suite for Design Assessment 1 for EE M16 Spring 23'*
 
-**Creates random test cases for the design assessment task 1 (as of now).**
+**Creates random test cases for the design assessment task 1 and task 2 (as of now).**
 
 ## Installation
 To install the repository, run
@@ -18,10 +18,18 @@ pip install gmpy2
 ```
 
 ## Usage
-Currently I have only uploaded a test for Task 1. To run the code run:
+Currently I have only uploaded tests for Task 1 and Task 2. To run the code run:
 ```
-python3 test_1.py n > test1.txt
+python3 test_1.py n > test.txt
 ```
-where *n* is the number of test cases you want and *test1.txt* is the name of the file you want to send the test cases to.
+or 
+```
+python3 test_2.py n > test.txt
+```
+where *n* is the number of test cases you want and *test.txt* is the name of the file you want to send the test cases to.
 
 You can then use the "Test Vectors" feature on Logisim to test your circuit.
+
+## Task-wise Testing Information
+1. Task 1 - *n* test cases randomly generated. Only valid test cases implemented. No edge cases implemented.
+2. Task 2 - *n* test cases randomly generated. In addition to *n* test cases, there are 11 basic edge cases checking for circuit working on "+00" and "-00" and other cases which the circuit should handle including incorrect SIGN or incorrect D1 and D0.
