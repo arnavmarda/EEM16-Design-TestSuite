@@ -32,4 +32,4 @@ You can then use the "Test Vectors" feature on Logisim to test your circuit.
 
 ## Task-wise Testing Information
 1. Task 1 - *n* test cases randomly generated. Only valid test cases implemented. No edge cases implemented.
-2. Task 2 - *n* test cases randomly generated. In addition to *n* test cases, there are 11 basic edge cases checking for circuit working on "+00" and "-00" and other cases which the circuit should handle including incorrect SIGN or incorrect D1 and D0.
+2. Task 2 - *n* test cases randomly generated. In addition to *n* test cases, there are 64 other cases checking for circuit working on "+00", "-00", "+99", and "-99". Apart from these 4 cases, there are 20 cases with incorrect SIGN input, 20 cases with incorrect D1 and D0 and 20 cases with incorrect SIGN, D1 and D0. 
